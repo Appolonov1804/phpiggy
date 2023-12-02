@@ -1,0 +1,17 @@
+{
+    "name": "user/phpiggy",
+    "description": "A PHP description for tracking expenses",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alex"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/Framework",
+            "App\\": "src/App"
+        }
+    }
+}
